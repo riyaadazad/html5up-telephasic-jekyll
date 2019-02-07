@@ -1,6 +1,7 @@
 ---
-title: My page
+title: Home
 layout: default
+image: #
 ---
 
-# {{ page.title }}
+Some page content here...

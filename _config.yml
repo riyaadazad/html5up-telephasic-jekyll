@@ -16,9 +16,7 @@
 title: Telephasic by HTML5 UP
 email: azad.riyaad@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Telephasic is a responsive site template by HTML5 UP,
- designed and built by AJ and released for free under
- the Creative Commons Attribution 3.0 license.
+ Telephasic is a responsive site template by HTML5 UP, designed and built by AJ and released for free under the Creative Commons Attribution 3.0 license.
 baseurl: "/html5up-telephasic-jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

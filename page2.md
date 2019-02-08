@@ -1,5 +1,5 @@
 ---
-title: Page 2
+title: Left Sidebar
 layout: default
 description: This is the description for the page.
 ---

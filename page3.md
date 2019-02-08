@@ -1,5 +1,5 @@
 ---
-title: Page 3
+title: Right Sidebar
 layout: default
 description: This is the description for the page.
 ---

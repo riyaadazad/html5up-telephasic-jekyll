@@ -1,7 +1,3 @@
 ---
-title: Home
-layout: default
-description: This is a description of the post.
+layout: home
 ---
-
-Some page content here...

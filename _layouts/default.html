@@ -73,7 +73,7 @@
                             <a href="#" class="image featured"><img src="{{ post.image }}" alt="" /></a>
                         </div>
                         <header>
-                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
                             <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
                         </header>
                         <p>{{ post.description }}</p>

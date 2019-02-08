@@ -2,6 +2,7 @@
 title: My Second Post
 layout: default
 description: Description for the second post.
+permalink: /second-post
 image: #
 ---
 

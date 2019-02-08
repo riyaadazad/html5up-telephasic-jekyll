@@ -2,6 +2,7 @@
 title: My First Post
 layout: default
 description: Description for the first post.
+permalink: /first-post
 image: #
 ---
 

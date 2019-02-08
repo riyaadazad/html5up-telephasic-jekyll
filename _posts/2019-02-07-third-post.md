@@ -2,7 +2,7 @@
 title: My Third Post
 layout: default
 description: Description for the third post.
-permalink: /second-post
+permalink: /third-post
 image: #
 ---
 

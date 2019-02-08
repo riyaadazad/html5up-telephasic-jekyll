@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-description: This is the description for the About page.
+description: This is the description for the page.
 ---
 
-Some about page content here...
+Some page content here...

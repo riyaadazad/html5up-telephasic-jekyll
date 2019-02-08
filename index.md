@@ -1,3 +1,4 @@
 ---
-layout: home
+layout: landing
+description: Welcome to Telephasic!
 ---

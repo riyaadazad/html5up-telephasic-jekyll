@@ -1,5 +1,5 @@
 ---
-title: Dropdown
+title: About
 layout: default
 description: This is the description for the page.
 ---

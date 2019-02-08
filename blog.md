@@ -1,6 +1,7 @@
 ---
-title: Right Sidebar
+title: Blog
 layout: default
+permalink: /blog
 description: This is the description for the page.
 ---
 

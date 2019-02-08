@@ -2,52 +2,7 @@
 <div id="header-wrapper">
     <div id="header" class="container">
 
-        <!-- Logo -->
-        <h1 id="logo"><a href="index.html">{{ site.brand }}</a></h1>
-
-        <!-- Nav -->
-        <nav id="nav">
-            <ul>
-                <li><a href="{{ base.url }}about">About</a></li>
-                <li><a href="{{ base.url }}">Articles</a></li>
-                <li class="break"><a href="{{ base.url }}">Blog</a></li>
-                <li><a href="{{ base.url }}">Contact</a></li>
-            </ul>
-        </nav>
-
-        {% for static_file in site.static_files %}
-        {% if static_file.path == '/landing.html' %}
-        <!-- Hero -->
-        <section id="hero" class="container">
-            <header>
-                <h2>Telephasic is a responsive
-                    <br />
-                    site template by <a href="http://html5up.net">HTML5 UP</a></h2>
-            </header>
-            <p>Designed and built by <a href="http://twitter.com/ajlkn">AJ</a> and released for free under
-                <br />
-                the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">Get this party started</a></li>
-            </ul>
-        </section> {% endif %}
-        {% endfor %}
-
-        {% if about.md %}
-        <!-- Hero -->
-        <section id="hero" class="container">
-            <header>
-                <h2>Telephasic is a responsive
-                    <br />
-                    site template by <a href="http://html5up.net">HTML5 UP</a></h2>
-            </header>
-            <p>Designed and built by <a href="http://twitter.com/ajlkn">AJ</a> and released for free under
-                <br />
-                the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">Get this party started</a></li>
-            </ul>
-        </section>
-        {% endif %}
+        <!-- Nav and Logo -->
+        {% include nav.html %}
     </div>
 </div>

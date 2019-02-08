@@ -1,0 +1,26 @@
+<!-- Recent Posts -->
+<div class="wrapper">
+    <section class="container">
+        <header class="major">
+            <h2>Check out our blog!</h2>
+            <p>View the latest articles.</p>
+        </header>
+        <div class="row features">
+            {% for post in site.posts limit:3 %}
+            <section class="col-4 col-12-narrower feature">
+                <div class="image-wrapper first">
+                    <a href="{{site.baseurl}}{{ post.url }}" class="image featured"><img src="{{ post.image }}" alt="" /></a>
+                </div>
+                <header>
+                    <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
+                    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+                </header>
+                <p>{{ post.description }}</p>
+                <ul class="actions">
+                    <li><a href="{{site.baseurl}}{{ post.url }}" class="button">View Post</a></li>
+                </ul>
+            </section>
+            {% endfor %}
+        </div>
+    </section>
+</div>

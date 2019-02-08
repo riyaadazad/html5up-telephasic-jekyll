@@ -66,47 +66,22 @@
                     <a href="#" class="image featured"><img src="{{ page.image }}" alt="" /></a>
                     {{ content }}
                 </article>
-
                 <div class="row features">
+                    {% for post in site.posts limit:3 %}
                     <section class="col-4 col-12-narrower feature">
                         <div class="image-wrapper first">
-                            <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+                            <a href="#" class="image featured"><img src="{{ post.image }}" alt="" /></a>
                         </div>
                         <header>
-                            <h3>Dolor sit consequat magna</h3>
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
                         </header>
-                        <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-                            vel sem sit dolor neque semper magna lorem ipsum.</p>
+                        <p>{{ post.description }}</p>
                         <ul class="actions">
-                            <li><a href="#" class="button">Elevate my awareness</a></li>
+                            <li><a href="{{ post.url }}" class="button">View Post</a></li>
                         </ul>
                     </section>
-                    <section class="col-4 col-12-narrower feature">
-                        <div class="image-wrapper">
-                            <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-                        </div>
-                        <header>
-                            <h3>Dolor sit consequat magna</h3>
-                        </header>
-                        <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-                            vel sem sit dolor neque semper magna lorem ipsum.</p>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Elevate my awareness</a></li>
-                        </ul>
-                    </section>
-                    <section class="col-4 col-12-narrower feature">
-                        <div class="image-wrapper">
-                            <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-                        </div>
-                        <header>
-                            <h3>Dolor sit consequat magna</h3>
-                        </header>
-                        <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-                            vel sem sit dolor neque semper magna lorem ipsum.</p>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Elevate my awareness</a></li>
-                        </ul>
-                    </section>
+                    {% endfor %}
                 </div>
             </div>
         </div>

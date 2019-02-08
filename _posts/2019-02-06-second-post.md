@@ -1,7 +1,7 @@
 ---
 title: My Second Post
 layout: default
-description: Description for the second post
+description: Description for the second post.
 image: #
 ---
 

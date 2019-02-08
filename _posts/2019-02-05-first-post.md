@@ -1,7 +1,7 @@
 ---
 title: My First Post
 layout: default
-description: Description for the first post
+description: Description for the first post.
 image: #
 ---
 

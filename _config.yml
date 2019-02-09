@@ -21,9 +21,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/html5up-telephasic-jekyll" # the subpath of your site, e.g. /blog
 aboutme: We are an XYZ company dedicated to satisfying our customers.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  riyaadazad
-google_analytics: #
+# twitter_handle: jekyllrb
+# facebook_username: jekyllrb
+# dribbble_username: jekyllrb
+# instagram_username: jekyllrb
+# youtube_channel: jekyllrb
+# pinterest_username: jekyllrb
+# github_username:  riyaadazad
+# google_analytics:
 
 # Build settings
 markdown: kramdown

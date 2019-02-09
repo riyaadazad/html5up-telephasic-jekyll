@@ -1,4 +1,4 @@
-Converted to Jekyll by [@riyaadazad](https://github.com/riyaadazad).
+**Converted to Jekyll by [@riyaadazad](https://github.com/riyaadazad).**
 
 Telephasic by HTML5 UP
 html5up.net | @ajlkn

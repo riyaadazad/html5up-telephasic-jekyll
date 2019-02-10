@@ -21,7 +21,7 @@
                         <h2>{{ page.title }}</h2>
                         <p>{{ page.description }}</p>
                     </header>
-                    <a href="#" class="image featured"><img src="{{ page.image }}" alt="" /></a>
+                    <a href="{{ page.image-link }}" class="image featured"><img src="{{ page.image }}" alt="{{ page.image-alt-text }}" /></a>
                     {{ content }}
                 </article>
             </div>

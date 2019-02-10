@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Converted to Jekyll by Riyaad Azad | @riyaadazad | riyaadazad.github.io
+-->
+<html>
+{% include head.html %}
+
+<body class="left-sidebar is-preload">
+	<div id="page-wrapper">
+		{% include header.html %}
+		<!-- Main -->
+		<div class="wrapper">
+			<div class="container" id="main">
+				<div class="row gtr-150">
+					<div class="col-4 col-12-narrower">
+						<!-- Sidebar -->
+						{% include sidebar.html %}
+					</div>
+					<div class="col-8 col-12-narrower imp-narrower">
+
+						<!-- Content -->
+						<article id="content">
+							<header>
+								<h2>{{ page.title }}</h2>
+								<p>{{ page.description }}</p>
+							</header>
+							<a href="{{ page.image-link }}" class="image featured"><img src="{{ page.image }}" alt="{{ page.image-alt-text }}" /></a>
+							{{ content }}
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% include footer.html %}
+	</div>
+	{% include script.html %}
+</body>
+
+</html>

@@ -1,8 +1,3 @@
 ---
-title: Blog
-layout: default
-permalink: /blog
-description: This is the description for the page.
+layout: blog
 ---
-
-Some page content here...

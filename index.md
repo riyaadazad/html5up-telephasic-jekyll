@@ -2,6 +2,7 @@
 layout: landing
 description: Welcome to Telephasic!
 hero-cta-button-link: #
+hero-cta-button-text: #
 ---
 
 ## This is a heading

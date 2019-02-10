@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Telephasic by HTML5 UP
 brand: Telephasic
+name: Untitled
 email: email@mail.com
 description: > # this means to ignore newlines until "baseurl:"
  Telephasic is a responsive site template by HTML5 UP, designed <br> and built by AJ and released for free under the Creative Commons <br> Attribution 3.0 license. "Jekyllized" by @RiyaadAzad. Enjoy!
